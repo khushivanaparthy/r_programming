@@ -1,0 +1,6 @@
+name<- c("john","mark","kevin")
+score<- c(50,40,65)
+df<-data.frame(name,score)
+View(df)
+write.csv(df,"df.csv")
+boxplot(score)
